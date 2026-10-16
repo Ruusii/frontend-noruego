@@ -16,7 +16,7 @@ const PACKS_NORUEGO = [
       { norwegian: 'en bil', spanish: 'un coche', category: 'Sustantivo', ejemploNoruego: 'Han kjøpte en ny bil i går.', ejemploEspanol: 'Él compró un coche nuevo ayer.' }, 
       { norwegian: 'ei bok', spanish: 'un libro', category: 'Sustantivo', ejemploNoruego: 'Jeg leser ei spennende bok.', ejemploEspanol: 'Estoy leyendo un libro emocionante.' },
       { norwegian: 'tusen takk', spanish: 'muchas gracias', category: 'Expresión', ejemploNoruego: 'Tusen takk for hjelpen.', ejemploEspanol: 'Muchas gracias por la ayuda.' }, 
-      { norwegian: 'beklager', spanish: 'lo siento', category: 'Expresión', ejemploNoruego: 'Beklager, jeg er sen.', ejemploEspanol: 'Lo siento, llego tarde.' }
+      { norwegian: 'beklager', spanish: 'lo siento / disculpa', category: 'Expresión', ejemploNoruego: 'Beklager, jeg er sen.', ejemploEspanol: 'Lo siento, llego tarde.' }
     ]
   },
   {
@@ -26,6 +26,19 @@ const PACKS_NORUEGO = [
       { norwegian: 'å forstå', spanish: 'entender', category: 'Verbo', ejemploNoruego: 'Forstår du hva jeg mener?', ejemploEspanol: '¿Entiendes lo que quiero decir?' },
       { norwegian: 'å jobbe', spanish: 'trabajar', category: 'Verbo', ejemploNoruego: 'Jeg skal jobbe i morgen.', ejemploEspanol: 'Voy a trabajar mañana.' }, 
       { norwegian: 'å kjøpe', spanish: 'comprar', category: 'Verbo', ejemploNoruego: 'Hva vil du kjøpe?', ejemploEspanol: '¿Qué quieres comprar?' }
+    ]
+  },
+  {
+    id: 'conversacion_b1', titulo: 'Conectores y Adjetivos (A2/B1)', descripcion: 'Palabras clave para enlazar frases y sonar natural al hablar.', icono: '💬',
+    palabras: [
+      { norwegian: 'kanskje', spanish: 'quizás / tal vez', category: 'Expresión', ejemploNoruego: 'Kanskje vi kan møtes i morgen.', ejemploEspanol: 'Quizás podamos vernos mañana.' },
+      { norwegian: 'selvfølgelig', spanish: 'por supuesto', category: 'Expresión', ejemploNoruego: 'Selvfølgelig vil jeg hjelpe deg.', ejemploEspanol: 'Por supuesto que te ayudaré.' },
+      { norwegian: 'egentlig', spanish: 'en realidad', category: 'Expresión', ejemploNoruego: 'Egentlig har jeg ikke tid.', ejemploEspanol: 'En realidad no tengo tiempo.' },
+      { norwegian: 'vanskelig', spanish: 'difícil', category: 'Adjetivo', ejemploNoruego: 'Norsk er ikke så vanskelig.', ejemploEspanol: 'El noruego no es tan difícil.' },
+      { norwegian: 'viktig', spanish: 'importante', category: 'Adjetivo', ejemploNoruego: 'Det er viktig å øve hver dag.', ejemploEspanol: 'Es importante practicar cada día.' },
+      { norwegian: 'hyggelig', spanish: 'agradable / acogedor', category: 'Adjetivo', ejemploNoruego: 'Det var hyggelig å møte deg.', ejemploEspanol: 'Fue agradable conocerte.' },
+      { norwegian: 'sliten', spanish: 'cansado / agotado', category: 'Adjetivo', ejemploNoruego: 'Jeg er veldig sliten i dag.', ejemploEspanol: 'Estoy muy cansado hoy.' },
+      { norwegian: 'fornøyd', spanish: 'satisfecho / contento', category: 'Adjetivo', ejemploNoruego: 'Jeg er fornøyd med resultatet.', ejemploEspanol: 'Estoy satisfecho con el resultado.' }
     ]
   }
 ]
