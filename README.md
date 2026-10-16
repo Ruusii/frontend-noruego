@@ -2,6 +2,12 @@
 
 Una plataforma Full-Stack de aprendizaje de noruego (Bokmål) diseñada con metodologías de repetición espaciada, gamificación avanzada y diseño escandinavo.
 
+🔗 **Enlace del proyecto en vivo:** https://frontend-noruego.vercel.app/
+
+👤 **Usuario de prueba para evaluadores:**
+- **Email:** tribunal@neoland.com
+- **Contraseña:** 123456
+  
 ## 🚀 Características Principales
 
 * **🧠 Repetición Espaciada (Spaced Repetition):** Algoritmo inteligente que prioriza las palabras que más te cuestan y exige 25 aciertos con alta precisión para considerar una palabra "Dominada".
