@@ -1,16 +1,31 @@
-# React + Vite
+# ⚡ Spark — Norsk App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Una plataforma Full-Stack de aprendizaje de noruego (Bokmål) diseñada con metodologías de repetición espaciada, gamificación avanzada y diseño escandinavo.
 
-Currently, two official plugins are available:
+## 🚀 Características Principales
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+* **🧠 Repetición Espaciada (Spaced Repetition):** Algoritmo inteligente que prioriza las palabras que más te cuestan y exige 25 aciertos con alta precisión para considerar una palabra "Dominada".
+* **🎙️ Audio Nativo (TTS):** Integración de síntesis de voz noruega (`nb-NO`) nativa y fallback a la API de Google Translate para garantizar una pronunciación perfecta en cualquier dispositivo.
+* **🎮 5 Modos de Entrenamiento:**
+  * ✍️ Escritura (Dictado directo).
+  * 🎯 Tipo Test (4 opciones dinámicas).
+  * 🎧 Oído Noruego (Escucha activa sin texto).
+  * ⏱️ Sprint Contrarreloj (Reflejos de fluidez en 60 segundos).
+  * 🃏 Flashcards (Autoevaluación clásica).
+* **🏆 Gamificación Realista (Estándar MCER):** Sistema de 7 rangos (A1 a C2), control de rachas diarias y 12 trofeos a largo plazo (hasta 5.000 palabras y 365 días de constancia).
+* **🎨 Vestidor RPG (Avatares SVG):** Componente de mascota renderizado en vectores puros por capas. El usuario desbloquea razas, colores, ropa y accesorios según sus puntos de experiencia (XP).
+* **📱 Progressive Web App (PWA):** Instalable en dispositivos móviles para una experiencia nativa.
 
-## React Compiler
+## 🛠️ Stack Tecnológico
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+* **Frontend:** React (Vite), Tailwind CSS v4, React Router DOM.
+* **Backend:** Node.js, Express, JSON Web Tokens (JWT) para autenticación.
+* **Base de Datos:** MongoDB Atlas + Mongoose.
+* **Despliegue:** Vercel (Frontend) y Render (Backend API).
 
-## Expanding the ESLint configuration
+## 📦 Instalación Local
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+1. Clona este repositorio.
+2. Instala las dependencias con `npm install`.
+3. Crea un archivo `.env` en la raíz con la variable `VITE_API_URL` apuntando a tu backend.
+4. Inicia el servidor de desarrollo con `npm run dev`.
