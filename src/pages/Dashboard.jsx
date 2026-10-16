@@ -528,6 +528,34 @@ function Dashboard() {
           {vista === 'diccionario' && (
             <div className="max-w-5xl mx-auto space-y-6">
               
+              {mostrarPacks && (
+                <section className="bg-stone-900 text-white p-6 rounded-2xl shadow-md space-y-4">
+                  <div className="flex items-center justify-between">
+                    <div>
+                      <h3 className="font-bold text-base">📦 Biblioteca de Packs (Bokmål)</h3>
+                      <p className="text-xs text-stone-400">Importa vocabulario esencial en 1 clic. Se omiten duplicados automáticamente.</p>
+                    </div>
+                  </div>
+                  <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
+                    {PACKS_NORUEGO.map(pack => (
+                      <div key={pack.id} className="bg-stone-800/90 border border-stone-700 p-4 rounded-xl flex flex-col justify-between">
+                        <div>
+                          <div className="flex items-center justify-between mb-2">
+                            <span className="text-2xl">{pack.icono}</span>
+                            <span className="text-[11px] font-bold bg-stone-700 text-stone-300 px-2.5 py-0.5 rounded-full">{pack.palabras.length} palabras</span>
+                          </div>
+                          <h4 className="font-bold text-sm text-white">{pack.titulo}</h4>
+                          <p className="text-xs text-stone-400 mt-1">{pack.descripcion}</p>
+                        </div>
+                        <button onClick={() => handleImportarPack(pack)} disabled={importandoPack !== null} className="mt-4 w-full bg-amber-400 hover:bg-amber-300 disabled:opacity-50 text-stone-950 font-bold text-xs py-2.5 rounded-lg transition-all">
+                          {importandoPack === pack.id ? 'Importando...' : '+ Añadir pack a mi diccionario'}
+                        </button>
+                      </div>
+                    ))}
+                  </div>
+                </section>
+              )}
+
               {/* Formulario NUEVO: Con campos de ejemplos opcionales */}
               <section className="bg-white p-5 md:p-6 rounded-2xl shadow-sm border border-stone-200/80">
                 <div className="flex flex-wrap items-center justify-between gap-2 mb-4">
